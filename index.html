@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon_small.png "
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&subset=latin,cyrillic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&subset=latin,cyrillic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <script src="./script/main.js"></script>
+    <title>
+      GetCourse. Платформа для продажи и проведения онлайн-тренингов
+    </title>
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="header">
+      <div class="container">
+        <div class="flex_row">
+          <div class="header__left">
+            <div class="header__logo__box">
+              <a class="burger__btn" id="burger__btn"
+                ><i class="fas fa-bars"></i
+              ></a>
+              <a href="#" class="header__logo__btn">
+                <img class="header__logo__img" src="./assets/images/logo.png" />
+                <div class="header__logo__text">GetCourse</div>
+              </a>
+            </div>
+          </div>
+          <div class="header__center">
+            <nav class="nav_bar">
+              <ul class="menu">
+                <li><a class="menu_btn">Услуги</a></li>
+                <li><a class="menu_btn">Контакты</a></li>
+                <li><a class="menu_btn">Цены</a></li>
+                <li><a class="menu_btn">Мастер-Классы</a></li>
+                <li><a class="menu_btn">Помощь</a></li>
+                <li><a class="menu_btn">Подрядчики</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__right">
+            <div class="phone header__right__phone">
+              <a class="header__right_btn" href="tel:+78005554703"
+                ><span>+7 (800) 555-47-03</span><i class="fas fa-phone"></i
+              ></a>
+            </div>
+            <div class="auth header__right_auth">
+              <a class="header__right_btn" href="#">Войти</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- burger menu -->
+
+    <div class="header__burger__box" id="header__burger__box">
+      <nav class="nav_bar_burger" id="nav_bar_burger">
+        <ul class="menu_burger">
+          <li class="menu_burger_btn"><a>Услуги</a></li>
+          <li class="menu_burger_btn"><a>Контакты</a></li>
+          <li class="menu_burger_btn"><a>Цены</a></li>
+          <li class="menu_burger_btn"><a>Мастер-Классы</a></li>
+          <li class="menu_burger_btn"><a>Помощь</a></li>
+          <li class="menu_burger_btn"><a>Подрядчики</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- first screen -->
+
+    <section class="first__screen">
+      <div class="bg__first__screen"></div>
+      <div class="wrapper">
+        <div class="first__screen_title">
+          <h1>Платформа для продажи и проведения обучения</h1>
+        </div>
+        <div class="first__screen_text">
+          <p>Для тренеров, преподавателей, инфобизнесменов</p>
+          <p>Для семинаров, тренингов, курсов, очных и онлайн-занятий</p>
+        </div>
+        <div class="first__screen_button">
+          <button>Начать использовать GetCourse</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- ------ section advantages ------ -->
+
+      <section class="advantages">
+        <div class="advantages__row">
+          <div class="advantages__column">
+            <div class="border_bottom">
+              <p class="advantages__title">18 млдр</p>
+              <p class="advantages__title">рублей</p>
+            </div>
+            <p class="advantages__text">
+              Совокупный доход клиентов платформы (тренеров, коучей,
+              инфобизнесменов) за 2019 год
+            </p>
+          </div>
+          <div class="advantages__column">
+            <div class="border_bottom">
+              <p class="advantages__title">1 млн рублей</p>
+              <p class="advantages__title">в месяц</p>
+            </div>
+            <p class="advantages__text">
+              850 школ смогли заработать более 1 млн. рублей в месяц в 2019 году
+            </p>
+          </div>
+          <div class="advantages__column">
+            <div class="border_bottom">
+              <p class="advantages__title">Более</p>
+              <p class="advantages__title">8000 школ</p>
+            </div>
+            <p class="advantages__text">
+              Уже продают и ведут тренинги на платформе GetCourse.ru
+            </p>
+          </div>
+          <div class="advantages__column">
+            <div class="border_bottom">
+              <p class="advantages__title">От 2533 рублей</p>
+              <p class="advantages__title">в месяц</p>
+            </div>
+            <p class="advantages__text">
+              Стоимость аренды сервиса при оплате на год. Помесячно от 4400
+              рублей
+            </p>
+          </div>
+        </div>
+        <div class="advantages__row2 container__text">
+          <p class="advantages__row2__text">
+            Мы сами используем платформу для продажи собственных онлайн-курсов в
+            различных нишах и продаем их на
+            <span>50 миллионов рублей ежемесячно</span>. Мы точно знаем, что
+            платформа GetCourse позволяет и помогает зарабатывать.
+          </p>
+        </div>
+        <div class="advantages__row3">
+          <div class="advantages__article">
+            <div class="box__img green__circle">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Обучение</h4>
+            </div>
+            <div class="advantages__article__box__text">
+              <p class="advantages__article__text">
+                Тренинги, уроки, задания, ответы, преподаватели
+              </p>
+            </div>
+          </div>
+          <div class="advantages__article">
+            <div class="box__img yellow__circle">
+              <i class="fas fa-video"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Вебинары</h4>
+            </div>
+            <div class="advantages__article__box__text">
+              <p class="advantages__article__text">
+                Встроенные и на внешних сервисах, интегрирован продающий
+                функционал
+              </p>
+            </div>
+          </div>
+          <div class="advantages__article">
+            <div class="box__img red__circle">
+              <i class="fas fa-cube"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Брендирование</h4>
+            </div>
+            <div class="advantages__article__box__text">
+              <p class="advantages__article__text">
+                Ваш лого, ваш домен, ваш дизайн
+              </p>
+            </div>
+          </div>
+          <div class="advantages__article">
+            <div class="box__img green__circle">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Продажи и CRM</h4>
+            </div>
+            <div class="advantages__article__box__text">
+              <p class="advantages__article__text">
+                Формы продажи, офферы, продукты, доступ на период по факту
+                оплаты, статистика, полноценная CRM
+              </p>
+            </div>
+          </div>
+          <div class="advantages__article">
+            <div class="box__img yellow__circle">
+              <i class="fab fa-cc-visa"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Прием платежей</h4>
+            </div>
+            <div class="advantages__article__box__text">
+              <p class="advantages__article__text">
+                Яндекс. Касса, Яндекс. Деньги, PayPal, Qiwi, и другие готовые
+                интеграции
+              </p>
+            </div>
+          </div>
+          <div class="advantages__article">
+            <div class="box__img red__circle">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Email-рассылки</h4>
+            </div>
+            <div class="advantages__article__box__text">
+              <p class="advantages__article__text">
+                Планируемая отправка, контроль sent-view-read-click, сегментация
+                базы по 50-ти параметрам в интерфейсе мышкой
+              </p>
+            </div>
+          </div>
+          <div class="advantages__article">
+            <div class="box__img green__circle">
+              <i class="fab fa-wpforms"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Сайт и CMS</h4>
+            </div>
+            <div class="advantages__article__text" class="box__text">
+              <p>
+                Лендинги, шаблоны, блог, готовые формы записи, регистрации,
+                продажи
+              </p>
+            </div>
+          </div>
+          <div class="advantages__article">
+            <div class="box__img yellow__circle">
+              <i class="fas fa-recycle"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Задачи и процессы</h4>
+            </div>
+            <div class="advantages__article__box__text">
+              <p class="advantages__article__text">
+                Процессы могут все: автоворонка рассылок, автоматизация
+                колл-центра, рекуррентные платежи
+              </p>
+            </div>
+          </div>
+          <div class="advantages__article">
+            <div class="box__img red__circle">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="advantages__article__box__title">
+              <h4 class="advantages__article__title">Партнерская программа</h4>
+            </div>
+            <div class="advantages__article__box__text">
+              <p class="advantages__article__text">
+                Гибкие настройки комиссий, реферальная система, учет выплат
+                партнерам
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box__try__button">
+          <button class="try__button">Попробовать 14 дней бесплатно</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- section black text -->
+
+    <section class="black__section">
+      <div class="container">
+        <div class="box__black__text">
+          <p class="black__text">
+            Все модули в GetCourse тесно связаны между собой.
+          </p>
+          <p class="black__text">
+            Вам больше не нужно импортировать данные в десятки сервисов и
+            платить за каждый из них в отдельности
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- section specifics -->
+
+      <section class="section__specifics">
+        <!-- block training -->
+
+        <div class="block__training">
+          <div class="specifics__box__title">
+            <h2 class="specifics__title">Обучение</h2>
+            <p class="specifics__preamble">
+              Организуйте процесс обучения так, как удобно вам и вашим ученикам
+            </p>
+          </div>
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/training.jpg"
+                alt="image"
+              />
+              <p>Пример урока</p>
+            </div>
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Уроки и тренинги</h4>
+                <p class="specifics__article__text">
+                  Создавайте неограниченное количество тренингов, уроков, групп
+                  учеников. За каждый тренинг может отвечать отдельный учитель,
+                  проверяя выполненные задания.
+                </p>
+              </article>
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Стоп-уроки</h4>
+                <p class="specifics__article__text">
+                  С помощью GetCourse вы можете указывать, какие задания
+                  являются ключевыми. Не выполнив их, ученик не сможет
+                  продолжить обучение на курсе. Вам всегда доступна актуальная
+                  статистика по сходимости тренингов.
+                </p>
+              </article>
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">
+                  Гибкая система доступа
+                </h4>
+                <p class="specifics__article__text">
+                  Функционал обучения тесно связан с CRM, вы можете открывать
+                  доступ к определенным тренингам только тем, кто их оплатил, и
+                  автоматически закрывать доступы при окончании оплаченного
+                  периода.
+                </p>
+              </article>
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Расписание уроков</h4>
+                <p class="specifics__article__text">
+                  Вы можете указать расписание уроков, если проводите живые
+                  вебинары или выдавать уроки автоматически, если они доступны в
+                  записи. Например, «каждые 2 дня ученику выдается новый урок»,
+                  ученику будет приходить уведомление о новом уроке или
+                  вебинаре.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="box__try__button">
+          <button class="try__button">Попробовать 14 дней бесплатно</button>
+        </div>
+
+        <!-- block sales -->
+
+        <div class="block__sales">
+          <div class="specifics__box__title">
+            <h2 class="specifics__title">Продажи и CRM</h2>
+            <p class="specifics__preamble">
+              В геткурсе вы можете управлять заказами клиента, принимать оплаты,
+              записывать разговоры менеджеров и многое другое
+            </p>
+          </div>
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">
+                  Все данные клиента в едином месте
+                </h4>
+                <p class="specifics__article__text">
+                  Вы в любой момент знаете об ученике все: какие курсы он
+                  проходил, сколько денег принес, кто с ним общался по телефону
+                  (разговоры менеджера с клиентами записываются).
+                </p>
+              </article>
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Сегментирование</h4>
+                <p class="specifics__article__text">
+                  Выделяйте учеников по сложным правилам. К примеру, можно
+                  выделить всех, кто «закончил первый курс и не записался на
+                  второй» или «тех, кто получал рассылку про новый вебинар и не
+                  пришел на него».
+                </p>
+              </article>
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">
+                  Специализация на обучении
+                </h4>
+                <p class="specifics__article__text">
+                  GetCourse заточен именно под продажу обучения. Продавайте
+                  курсы потоками, делайте спецпредложения, ограничивайте доступ
+                  к материалам по времени — все это отлажено на большом
+                  количестве уже работающих проектов.
+                </p>
+              </article>
+            </div>
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/sales.png"
+                alt="image"
+              />
+              <p>Карточка клиента</p>
+            </div>
+          </div>
+
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/sales2.png"
+                alt="image"
+              />
+              <p>Аналитика продаж</p>
+            </div>
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Прием платежей</h4>
+                <p class="specifics__article__text">
+                  Интеграция с ЮKassa, CloudPayments, Robokassa, Paypal,
+                  Webmoney, Интеркассой и многими другими сервисами. Вы можете
+                  выставить клиенту счет и отметить его оплаченным по приходу
+                  денег, доступ к продуктам будет открыт автоматически по
+                  получению платежа.
+                </p>
+              </article>
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Сегментирование</h4>
+                <p class="specifics__article__text">
+                  Выделяйте учеников по сложным правилам. К примеру, можно
+                  выделить всех, кто «закончил первый курс и не записался на
+                  второй» или «тех, кто получал рассылку про новый вебинар и не
+                  пришел на него».
+                </p>
+              </article>
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Аналитика продаж</h4>
+                <p class="specifics__article__text">
+                  Вы в любой момент знаете, сколько денег вам пришло, сколько
+                  внесено предоплат и как обстоят дела с лояльностью клиентов.
+                </p>
+              </article>
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Рекуррентные платежи</h4>
+                <p class="specifics__article__text">
+                  Вы можете привязать банковскую карту клиента и продавать свои
+                  продукты «по подписке».
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="box__try__button">
+            <button class="try__button">Попробовать 14 дней бесплатно</button>
+          </div>
+        </div>
+
+        <!-- block mailing -->
+
+        <div class="block__mailing">
+          <div class="specifics__box__title">
+            <h2 class="specifics__title">Рассылки</h2>
+            <p class="specifics__preamble">
+              Полноценный почтовый сервис, тесно интегрированный с вашей базой
+            </p>
+          </div>
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/mailing.png"
+                alt="image"
+              />
+              <p>Статистика рассылки</p>
+            </div>
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">
+                  Больше не нужно мучаться
+                </h4>
+                <p class="specifics__article__text">
+                  Как часто вы решаете задачу экспорта данных клиентов в
+                  почтовый сервис для того чтобы отправить им какое-нибудь
+                  письмо? <br />
+                  В GetCourse вы просто выбираете сегмент людей, которым хотите
+                  отправить что-нибудь, пишете текст, указываете, когда начать
+                  рассылку и нажимаете кнопку «Отправить».
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="specifics__box__content">
+            <div class="specifics__articles container__flex__column">
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">
+                  Последовательности писем
+                </h4>
+                <p class="specifics__article__text">
+                  Для каждого сегмента людей вы можете отправлять разные
+                  последовательности писем, влияющие на конверсию.
+                </p>
+              </article>
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">Доставляемость</h4>
+                <p class="specifics__article__text">
+                  Мы внимательно следим за доставляемостью писем и анализируем
+                  ответы серверов. Вы знаете, доставлено ли письмо до адресата,
+                  прочитал человек письмо, перешел ли по ссылке или нажал
+                  «Отписаться».
+                </p>
+              </article>
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">Персональные ссылки</h4>
+                <p class="specifics__article__text">
+                  При переходе по ссылке из письма, человек автоматически
+                  ассоциируется с получателем и если вы приглашаете его на форму
+                  — ему не нужно будет вбивать второй раз свой электронный
+                  адрес, имя и те данные, которые уже есть в системе —
+                  достаточно будет просто нажать кнопку оформления заказа.
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="box__try__button">
+            <button class="try__button">Попробовать 14 дней бесплатно</button>
+          </div>
+        </div>
+
+        <!-- block site&cms -->
+
+        <div class="block__site&cms">
+          <div class="specifics__box__title">
+            <h2 class="specifics__title">Сайт и CMS</h2>
+            <p class="specifics__preamble">
+              В июне 2016 года мы запустили новый конструктор страниц — с его
+              помощью вы сможете самостоятельно собрать классную адаптивную
+              страницу без дизайнера и программиста. То, что вы сейчас видите,
+              собрано именно так.
+            </p>
+          </div>
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Сделать сайт сложно?</h4>
+                <p class="specifics__article__text">
+                  Дизайнер сделал макет, а программист говорит, что «это нельзя
+                  сверстать, чтобы было хорошо и на телефоне»? Сделали сайт
+                  самостоятельно в виксе или лпгенераторе, а потом встали
+                  вопросы, куда принимать данные клиента из форм, чтобы и
+                  рассылаться удобно по ним, и заказы вести и оплаты принимать?
+                  В GetCourse решены все эти вопросы.
+                </p>
+              </article>
+            </div>
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/site&cms.png"
+                alt="image"
+              />
+              <p>Готовые адаптивные блоки</p>
+            </div>
+          </div>
+
+          <div class="specifics__box__content">
+            <div class="specifics__articles container__flex__column">
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">Готовые блоки</h4>
+                <p class="specifics__article__text">
+                  Мы подготовили набор популярных блоков — обложки с видео,
+                  картинки с текстом вокруг, заголовки и подзаголовки, формы
+                  регистрации и заказа, модальные формы, колонки, плитка, меню.
+                  Блоки header и footer можно сделать один раз и использовать на
+                  всех страницах сайта.
+                </p>
+              </article>
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">Адаптивная верстка</h4>
+                <p class="specifics__article__text">
+                  Блоки реализованы так, что они будут хорошо выглядеть на
+                  телефоне, планшете и обычном экране. Больше не нужно
+                  проделывать двойную и тройную работу по адаптации верстки под
+                  разные устройства.
+                </p>
+              </article>
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">Уже проинтегрировано</h4>
+                <p class="specifics__article__text">
+                  Ключевая задача продающего сайта — собрать контактные данные и
+                  деньги с посетителей. Данные из форм попадают во встроенную
+                  CRM, и по ним сразу можно делать рассылки и принимать деньги,
+                  не думая о дополнительных интеграциях.
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="box__try__button">
+            <button class="try__button">Попробовать 14 дней бесплатно</button>
+          </div>
+        </div>
+
+        <!-- block tasks -->
+
+        <div class="block__tasks">
+          <div class="specifics__box__title">
+            <h2 class="specifics__title">Задачи и процессы</h2>
+            <p class="specifics__preamble">
+              Процессы могут все: автоворонка рассылок, автоматизация колцентра,
+              рекуррентые платежи
+            </p>
+          </div>
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/tasks.png"
+                alt="image"
+              />
+              <p>Так выглядит простой процесс</p>
+            </div>
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Желания и возможности</h4>
+                <p class="specifics__article__text">
+                  Когда сам строишь бизнес, всегда есть свои идеи, как должно
+                  быть устроено взаимодействие с клиентом. Приходилось упираться
+                  в ограничения системы? Или слышать от программиста: «Я сделаю
+                  это, но нужно две недели»? В GetCourse можно все (ну или почти
+                  все) настроить мышкой самостоятельно.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="specifics__box__content">
+            <div class="specifics__articles container__flex__column">
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">Автоворонки</h4>
+                <p class="specifics__article__text">
+                  Сначала отправить клиенту бесплатный контент, затем, если он
+                  его просмотрел, то предложение о покупке, а если не
+                  просмотрел, то другой контент с другим заголовком — это
+                  простенький старт для воронки. Полноценная воронка содержит в
+                  себе несколько десятков условий и делается в GetCourse без
+                  программиста.
+                </p>
+              </article>
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">
+                  Автоматизация колцентра
+                </h4>
+                <p class="specifics__article__text">
+                  Что говорить клиенту, через какое время перезвонить при
+                  недозвоне, перенести коммуникацию с клиентом на час, отправить
+                  письмо/смс по шаблону при очередном переходе по статусу заказа
+                  — все это можно настроить в процессе обработки заказа мышкой и
+                  без программиста.
+                </p>
+              </article>
+              <article class="specifics__article width_30_percent">
+                <h4 class="specifics__article__title">Рекуррентные платежи</h4>
+                <p class="specifics__article__text">
+                  Для определенных продуктов настроить автопродление с
+                  автосписанием денег с карты через заданный период,
+                  предварительно уведомив клиента письмом или звонком менеджера
+                  — и это тоже можно сделать процессом.
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="box__try__button">
+            <button class="try__button">Попробовать 14 дней бесплатно</button>
+          </div>
+        </div>
+
+        <!-- block analytics -->
+
+        <div class="block__analytics">
+          <div class="specifics__box__title">
+            <h2 class="specifics__title">Аналитика</h2>
+            <p class="specifics__preamble">
+              Нельзя управлять тем, что нельзя измерить
+            </p>
+          </div>
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">
+                  Есть же Я.метрика и гугланалитикс. Зачем что-то еще?
+                </h4>
+                <p class="specifics__article__text">
+                  Самая часто настраиваемая цель в метрике — покупка. И типичная
+                  рекомендация — сделать страницу, которая показывается
+                  пользователю после успешной оплаты, разместить на ней счетчик
+                  и таким образом учитывать достижение цели. Но зачастую сама
+                  оплата завершается на стороннем сервисе (альфа-клик,
+                  сбербанк-онлайн и прочих) без автоматического редиректа на
+                  нужную страницу — сервис лишь размещает ссылку, по которой
+                  пользователь может перейти, а может не перейти. Поэтому на 90%
+                  сайтах, где установлена метрика, цель «покупка» не учитывается
+                  примерно в 30% оплат. Поэтому в GetCourse мы сделали
+                  собственный модуль аналитики.
+                </p>
+              </article>
+            </div>
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/analitics.jpg"
+                alt="image"
+              />
+            </div>
+          </div>
+
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/analitics2.png"
+                alt="image"
+              />
+              <p>График ключевых показателей</p>
+            </div>
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Ключевые показатели</h4>
+                <p class="specifics__article__text">
+                  Ключевые показатели на одном экране — посетители, регистрации,
+                  заказы, оплаты и сумма денег. Не примерные, а точные значение.
+                  В графическом виде, за заданный период. С возможностью
+                  группировки по дням, неделям, месяцам. И с фильтрацией по
+                  каналу трафика и партнерам (если трафик гонят партнеры).
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">
+                  Конверсии как индекс здоровья бизнеса
+                </h4>
+                <p class="specifics__article__text">
+                  Три конверсии. Первая — из посетителей в регистрации — говорит
+                  о том, насколько лэндинг, куда вы пригнали трафик,
+                  соответствует ожиданиям пользователей. Вторая — из регистраций
+                  в заказы — говорит о том, насколько вы активно продаете вашим
+                  подписчикам и насколько заявленная вами цена соответствует
+                  обещаемой ценности. Третья — из заказов в оплаты — говорит о
+                  том, насколько хорошо вы (или ваш колцентр) работаете с
+                  поступившими заявками.
+                </p>
+              </article>
+            </div>
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/site&cms.png"
+                alt="image"
+              />
+              <p>Графики конверсий</p>
+            </div>
+          </div>
+
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/site&cms.png"
+                alt="image"
+              />
+              <p>График экономических показателей</p>
+            </div>
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">Экономика в целом</h4>
+                <p class="specifics__article__text">
+                  Расходы на рекламу автоматически подтягиваются из директа.
+                  Остальные можно внести вручную. Это позволяет наблюдать сумму
+                  расходов, стоимость регистрации (подписчика), стоимость заказа
+                  (заявки) и стоимость оплаты (завершенного заказа).
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="specifics__box__content container__flex__column">
+            <div class="specifics__articles width_45_percent">
+              <article class="specifics__article">
+                <h4 class="specifics__article__title">ROI каналов</h4>
+                <p class="specifics__article__text">
+                  Расходы на рекламу можно внести в систему в разрезе каналов и
+                  кампаний. Это позволяет видеть эффективность (return of
+                  investments) каждого канала в отдельности. Расходы на директ
+                  подтягиваются автоматически.
+                </p>
+              </article>
+            </div>
+            <div class="specifics__box__image width_45_percent">
+              <img
+                class="specifics__image"
+                src="./assets/images/analitics5.png"
+                alt="image"
+              />
+              <p>Таблица roi каналов</p>
+            </div>
+          </div>
+
+          <div class="box__try__button">
+            <button class="try__button">Попробовать 14 дней бесплатно</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- --- section footer--- -->
+    <footer class="section__footer">
+      <div class="container">
+        <div class="footer__container__title">
+          <p class="footer__title">
+            GetCourse закрывает полный цикл взаимодействия с клиентом
+          </p>
+        </div>
+        <div class="footer__row">
+          <div class="footer__column width_20_percent">
+            <div class="footer__box__link__title">
+              <p class="footer__link__title">База знаний</p>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> FAQ </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Блог </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Мастер-Классы </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Курс по ГетКурс </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Курс по процессам </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Курс по лендингам </a>
+            </div>
+          </div>
+          <div class="footer__column width_20_percent">
+            <div class="footer__box__link__title">
+              <p class="footer__link__title">Юридические документы</p>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Договор оферты </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link">
+                Политика обработки персоналных данных
+              </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Информация о юридическом лице </a>
+            </div>
+          </div>
+          <div class="footer__column width_20_percent">
+            <div class="footer__box__link__title">
+              <p class="footer__link__title">Компания</p>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Клиенты </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Контакты </a>
+            </div>
+            <div class="footer__box__link">
+              <a class="footer__link"> Подрядчики </a>
+            </div>
+          </div>
+          <div class="footer__column width_20_percent">
+            <div class="footer__box__link__title">
+              <p class="footer__link__title">Наши проекты</p>
+            </div>
+            <div class="footer__box__link">
+              <a href="https://kalachevaschool.ru/" class="footer__link">
+                Школа рисования Вероники Калачевой
+              </a>
+            </div>
+            <div class="footer__box__link">
+              <a href="https://usmanovateam.ru/vhod" class="footer__link">
+                Школа фитнеса Екатерины Усмановой
+              </a>
+            </div>
+            <div class="footer__box__link">
+              <a href="silavoli24.ru" class="footer__link">
+                Сила Воли с Лайсан Утяшевой и Павлом Волей
+              </a>
+            </div>
+            <div class="footer__box__link">
+              <a href="https://gandapas.school/main" class="footer__link">
+                Школа лидерства Радислава Гандапаса
+              </a>
+            </div>
+            <div class="footer__box__link">
+              <a href="https://getcourse.ru/university" class="footer__link">
+                "GetCourse" для вузов
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <a class="footer__contact" href="support@getcourse.ru"
+            >support@getcourse.ru</a
+          >
+          <a class="footer__contact" href="tel:+78005554703"
+            >+7(800)555 47 03</a
+          >
+          <a class="footer__contact" href="tel:+74951184225"
+            >+7(495)118 42 25</a
+          >
+        </div>
+        <div class="footer__social">
+          <a class="footer__contact" href="telegramm"
+            ><i class="fab fa-telegram"></i
+          ></a>
+          <a class="footer__contact" href="vk"><i class="fab fa-vk"></i></a>
+          <a class="footer__contact" href="facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
